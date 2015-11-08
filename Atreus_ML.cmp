@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/11/2015 19:34:25
+
+BeginCmp
+TimeStamp = /563F86E6;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F875E;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F87DE;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8777;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8806;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F86F5;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8704;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8786;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8815;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8713;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8795;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8824;
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = FDLL4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8600;
+Reference = K1;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8641;
+Reference = K2;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F86A0;
+Reference = K3;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8650;
+Reference = K4;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F86B9;
+Reference = K5;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F860F;
+Reference = K6;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F8632;
+Reference = K7;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F865F;
+Reference = K8;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F86C8;
+Reference = K9;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F866E;
+Reference = K10;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F867D;
+Reference = K11;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F86D7;
+Reference = K12;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /563F87A4;
+Reference = P1;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+EndListe

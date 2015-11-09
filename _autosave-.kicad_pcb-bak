@@ -3,7 +3,7 @@
   (general
     (links 48)
     (no_connects 48)
-    (area 191.736 110.48873 264.663 201.489)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -57,7 +57,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements FFFFFFBF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -203,7 +203,7 @@
   )
 
   (module CHERRY_ML (layer F.Cu) (tedit 563F8269) (tstamp 5641205C)
-    (at 215.9 133.35)
+    (at 217.17 134.62)
     (path /563F860F)
     (fp_text reference K6 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -239,7 +239,7 @@
   )
 
   (module CHERRY_ML (layer F.Cu) (tedit 563F8269) (tstamp 56412067)
-    (at 234.95 133.35)
+    (at 236.22 134.62)
     (path /563F8632)
     (fp_text reference K7 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -596,7 +596,7 @@
   )
 
   (module CHERRY_ML (layer F.Cu) (tedit 563F8269) (tstamp 564120D5)
-    (at 196.85 133.35)
+    (at 198.12 134.62)
     (path /563F8600)
     (fp_text reference K1 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))

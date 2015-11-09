@@ -1,5 +1,10 @@
-update=08/11/2015 20:24:39
+update=09/11/2015 22:27:36
 last_client=pcbnew
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=D:/Git/Atreus_ML/library
@@ -40,11 +45,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=cherry_ml
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName32=4148_rev2
 [pcbnew]
 version=1
 LastNetListRead=Atreus_ML.net
@@ -84,3 +85,4 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=library/CHERRY_ML
 LibName18=library/ll4148
+LibName19=library/4148_rev2

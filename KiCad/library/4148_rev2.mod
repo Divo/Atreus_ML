@@ -1,0 +1,30 @@
+PCBNEW-LibModule-V1  09/11/2015 20:44:27
+# encoding utf-8
+Units mm
+$INDEX
+4148_rev2
+$EndINDEX
+$MODULE 4148_rev2
+Po 0 0 0 15 564105A0 00000000 ~~
+Li 4148_rev2
+Sc 0
+AR 
+Op 0 0 0
+T0 1.27 -2.54 1 1 0 0.15 N I 21 N "4148"
+T1 1.27 2.54 1 1 0 0.15 N V 21 N "D**"
+$PAD
+Sh "1" R 1.1 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1.1 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 3.3 0
+$EndPAD
+$EndMODULE 4148_rev2
+$EndLIBRARY

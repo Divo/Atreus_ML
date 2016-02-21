@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/11/2015 23:07:57
+
+BeginCmp
+TimeStamp = /5650F7D0;
+Reference = D1;
+ValeurCmp = 4148;
+IdModule  = 4148_rev2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7F8;
+Reference = D2;
+ValeurCmp = 4148;
+IdModule  = 4148_rev2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7EC;
+Reference = D3;
+ValeurCmp = 4148;
+IdModule  = 4148_rev2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7F2;
+Reference = D4;
+ValeurCmp = 4148;
+IdModule  = 4148_rev2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7AF;
+Reference = K1;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7C2;
+Reference = K2;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7BC;
+Reference = K3;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F7C8;
+Reference = K4;
+ValeurCmp = CHERRY_ML;
+IdModule  = CHERRY_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /5650F800;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+EndListe

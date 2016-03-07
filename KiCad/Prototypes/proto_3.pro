@@ -1,5 +1,5 @@
-update=21/11/2015 23:07:06
-last_client=cvpcb
+update=07/03/2016 21:10:16
+last_client=kicad
 [eeschema]
 version=1
 LibDir=D:/Git/Atreus_ML/library
@@ -68,3 +68,13 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

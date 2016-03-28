@@ -1,4 +1,4 @@
-update=07/03/2016 21:45:26
+update=28/03/2016 11:55:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,14 +20,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../library
+LibDir=../library;../library/Teensy
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,3 +58,6 @@ LibName29=valves
 LibName30=C:/ProgramData/chocolatey/lib/Cygwin/tools/cygwin/home/Divo/git/Atreus_ML/KiCad/library/4148_rev2
 LibName31=C:/ProgramData/chocolatey/lib/Cygwin/tools/cygwin/home/Divo/git/Atreus_ML/KiCad/library/cherry_ml
 LibName32=components
+[cvpcb]
+version=1
+NetIExt=net

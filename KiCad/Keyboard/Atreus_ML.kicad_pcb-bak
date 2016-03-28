@@ -3,7 +3,7 @@
   (general
     (links 165)
     (no_connects 165)
-    (area 0 0 0 0)
+    (area 13.14 50.74 292.650905 170.615)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -58,8 +58,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 2.6 2.6)
+    (pad_drill 2.6)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -192,30 +192,30 @@
   (net 99 "Net-(K36-Pad1)")
   (net 100 "Net-(K37-Pad1)")
   (net 101 "Net-(K38-Pad1)")
-  (net 102 "Net-(K39-Pad3)")
-  (net 103 "Net-(K39-Pad1)")
-  (net 104 "Net-(K40-Pad3)")
-  (net 105 "Net-(K40-Pad1)")
-  (net 106 "Net-(K41-Pad3)")
-  (net 107 "Net-(K41-Pad1)")
-  (net 108 "Net-(K42-Pad3)")
-  (net 109 "Net-(K42-Pad1)")
-  (net 110 "Net-(P1-Pad1)")
-  (net 111 "Net-(P1-Pad2)")
-  (net 112 "Net-(P1-Pad3)")
-  (net 113 "Net-(P1-Pad4)")
-  (net 114 "Net-(P1-Pad5)")
-  (net 115 "Net-(P1-Pad6)")
-  (net 116 "Net-(P1-Pad7)")
-  (net 117 "Net-(U1-Pad1)")
-  (net 118 "Net-(U1-Pad13)")
-  (net 119 "Net-(U1-Pad14)")
-  (net 120 "Net-(U1-Pad15)")
-  (net 121 "Net-(U1-Pad16)")
-  (net 122 "Net-(U1-Pad17)")
-  (net 123 "Net-(U1-Pad29)")
-  (net 124 "Net-(U1-Pad30)")
-  (net 125 "Net-(U1-Pad31)")
+  (net 102 "Net-(K39-Pad1)")
+  (net 103 "Net-(K40-Pad1)")
+  (net 104 "Net-(K41-Pad1)")
+  (net 105 "Net-(K42-Pad1)")
+  (net 106 "Net-(P1-Pad1)")
+  (net 107 "Net-(P1-Pad2)")
+  (net 108 "Net-(P1-Pad3)")
+  (net 109 "Net-(P1-Pad4)")
+  (net 110 "Net-(P1-Pad5)")
+  (net 111 "Net-(P1-Pad6)")
+  (net 112 "Net-(P1-Pad7)")
+  (net 113 "Net-(U1-Pad1)")
+  (net 114 "Net-(U1-Pad13)")
+  (net 115 "Net-(U1-Pad14)")
+  (net 116 "Net-(U1-Pad15)")
+  (net 117 "Net-(U1-Pad16)")
+  (net 118 "Net-(U1-Pad17)")
+  (net 119 "Net-(U1-Pad29)")
+  (net 120 "Net-(U1-Pad30)")
+  (net 121 "Net-(U1-Pad31)")
+  (net 122 "Net-(K39-Pad4)")
+  (net 123 "Net-(K40-Pad4)")
+  (net 124 "Net-(K41-Pad4)")
+  (net 125 "Net-(K42-Pad4)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -322,16 +322,16 @@
     (add_net "Net-(K37-Pad1)")
     (add_net "Net-(K38-Pad1)")
     (add_net "Net-(K39-Pad1)")
-    (add_net "Net-(K39-Pad3)")
+    (add_net "Net-(K39-Pad4)")
     (add_net "Net-(K4-Pad1)")
     (add_net "Net-(K4-Pad3)")
     (add_net "Net-(K4-Pad4)")
     (add_net "Net-(K40-Pad1)")
-    (add_net "Net-(K40-Pad3)")
+    (add_net "Net-(K40-Pad4)")
     (add_net "Net-(K41-Pad1)")
-    (add_net "Net-(K41-Pad3)")
+    (add_net "Net-(K41-Pad4)")
     (add_net "Net-(K42-Pad1)")
-    (add_net "Net-(K42-Pad3)")
+    (add_net "Net-(K42-Pad4)")
     (add_net "Net-(K5-Pad4)")
     (add_net "Net-(P1-Pad1)")
     (add_net "Net-(P1-Pad2)")
@@ -352,7 +352,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930AF)
-    (at 27.94 82.55)
+    (at 50 76)
     (path /56DE2BE7)
     (fp_text reference D1 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -367,7 +367,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930B5)
-    (at 26.67 109.22)
+    (at 50 97)
     (path /56DE31F2)
     (fp_text reference D2 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -382,7 +382,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930BB)
-    (at 26.67 139.7)
+    (at 19.67 141.7)
     (path /56DE3887)
     (fp_text reference D3 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -397,7 +397,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930C1)
-    (at 27.94 165.1)
+    (at 20.94 167.1)
     (path /56DE38C8)
     (fp_text reference D4 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -412,7 +412,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930C7)
-    (at 49.53 82.55)
+    (at 70 73)
     (path /56DE2CD0)
     (fp_text reference D5 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -427,7 +427,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930CD)
-    (at 49.53 110.49)
+    (at 70 96)
     (path /56DE31F8)
     (fp_text reference D6 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -442,7 +442,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930D3)
-    (at 49.53 138.43)
+    (at 42.53 140.43)
     (path /56DE388D)
     (fp_text reference D7 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -457,7 +457,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930D9)
-    (at 53.34 165.1)
+    (at 46.34 167.1)
     (path /56DE38CE)
     (fp_text reference D8 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -472,7 +472,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930DF)
-    (at 76.2 81.28)
+    (at 90 68)
     (path /56DE2D19)
     (fp_text reference D9 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -487,7 +487,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930E5)
-    (at 77.47 109.22)
+    (at 90 91)
     (path /56DE31FE)
     (fp_text reference D10 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -502,7 +502,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930EB)
-    (at 78.74 133.35)
+    (at 71.74 135.35)
     (path /56DE3893)
     (fp_text reference D11 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -517,7 +517,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930F1)
-    (at 76.2 165.1)
+    (at 69.2 167.1)
     (path /56DE38D4)
     (fp_text reference D12 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -532,7 +532,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930F7)
-    (at 101.6 80.01)
+    (at 110 74)
     (path /56DE2D69)
     (fp_text reference D13 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -547,7 +547,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F930FD)
-    (at 101.6 106.68)
+    (at 111 97)
     (path /56DE3204)
     (fp_text reference D14 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -562,7 +562,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93103)
-    (at 101.6 133.35)
+    (at 94.6 135.35)
     (path /56DE3899)
     (fp_text reference D15 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -577,7 +577,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93109)
-    (at 100.33 162.56)
+    (at 93.33 164.56)
     (path /56DE38DA)
     (fp_text reference D16 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -592,7 +592,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9310F)
-    (at 127 76.2)
+    (at 130 79)
     (path /56DE2DA8)
     (fp_text reference D17 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -607,7 +607,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93115)
-    (at 127 105.41)
+    (at 130 100)
     (path /56DE320A)
     (fp_text reference D18 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -622,7 +622,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9311B)
-    (at 125.73 132.08)
+    (at 118.73 134.08)
     (path /56DE389F)
     (fp_text reference D19 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -637,7 +637,7 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93121)
-    (at 127 160.02)
+    (at 120 162.02)
     (path /56DE38E0)
     (fp_text reference D20 (at 1.27 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -682,8 +682,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93133)
-    (at 181.61 80.01 180)
-    (path /56DF72A8)
+    (at 192.61 81.01 180)
+    (path /56F9BB55)
     (fp_text reference D23 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -697,8 +697,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93139)
-    (at 180.34 102.87 180)
-    (path /56DF72E4)
+    (at 191.34 103.87 180)
+    (path /56F9BB91)
     (fp_text reference D24 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -712,8 +712,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9313F)
-    (at 181.61 125.73 180)
-    (path /56DF7320)
+    (at 192.61 126.73 180)
+    (path /56F9BBCD)
     (fp_text reference D25 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -727,8 +727,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93145)
-    (at 181.61 157.48 180)
-    (path /56DF735C)
+    (at 192.61 158.48 180)
+    (path /56F9BC09)
     (fp_text reference D26 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -742,8 +742,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9314B)
-    (at 204.47 78.74 180)
-    (path /56DF72A2)
+    (at 215.47 79.74 180)
+    (path /56F9BB5B)
     (fp_text reference D27 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -757,8 +757,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93151)
-    (at 207.01 102.87 180)
-    (path /56DF72DE)
+    (at 218.01 103.87 180)
+    (path /56F9BB97)
     (fp_text reference D28 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -772,8 +772,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93157)
-    (at 203.2 125.73 180)
-    (path /56DF731A)
+    (at 214.2 126.73 180)
+    (path /56F9BBD3)
     (fp_text reference D29 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -787,8 +787,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9315D)
-    (at 203.2 154.94 180)
-    (path /56DF7356)
+    (at 214.2 155.94 180)
+    (path /56F9BC0F)
     (fp_text reference D30 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -802,8 +802,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93163)
-    (at 228.6 78.74 180)
-    (path /56DF729C)
+    (at 239.6 79.74 180)
+    (path /56F9BB61)
     (fp_text reference D31 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -817,8 +817,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93169)
-    (at 227.33 101.6 180)
-    (path /56DF72D8)
+    (at 238.33 102.6 180)
+    (path /56F9BB9D)
     (fp_text reference D32 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -832,8 +832,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9316F)
-    (at 227.33 128.27 180)
-    (path /56DF7314)
+    (at 238.33 129.27 180)
+    (path /56F9BBD9)
     (fp_text reference D33 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -847,8 +847,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93175)
-    (at 223.52 156.21 180)
-    (path /56DF7350)
+    (at 234.52 157.21 180)
+    (path /56F9BC15)
     (fp_text reference D34 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -862,8 +862,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9317B)
-    (at 248.92 80.01 180)
-    (path /56DF7296)
+    (at 259.92 81.01 180)
+    (path /56F9BB67)
     (fp_text reference D35 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -877,8 +877,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93181)
-    (at 248.92 101.6 180)
-    (path /56DF72D2)
+    (at 259.92 102.6 180)
+    (path /56F9BBA3)
     (fp_text reference D36 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -892,8 +892,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93187)
-    (at 248.92 125.73 180)
-    (path /56DF730E)
+    (at 259.92 126.73 180)
+    (path /56F9BBDF)
     (fp_text reference D37 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -907,8 +907,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9318D)
-    (at 247.65 157.48 180)
-    (path /56DF734A)
+    (at 258.65 158.48 180)
+    (path /56F9BC1B)
     (fp_text reference D38 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -922,8 +922,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93193)
-    (at 270.51 78.74 180)
-    (path /56DF7290)
+    (at 281.51 79.74 180)
+    (path /56F9BB6D)
     (fp_text reference D39 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -937,8 +937,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F93199)
-    (at 270.51 101.6 180)
-    (path /56DF72CC)
+    (at 281.51 102.6 180)
+    (path /56F9BBA9)
     (fp_text reference D40 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -952,8 +952,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F9319F)
-    (at 269.24 128.27 180)
-    (path /56DF7308)
+    (at 280.24 129.27 180)
+    (path /56F9BBE5)
     (fp_text reference D41 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -967,8 +967,8 @@
   )
 
   (module 4148_rev2:4148_rev2 (layer F.Cu) (tedit 564105A0) (tstamp 56F931A5)
-    (at 271.78 156.21 180)
-    (path /56DF7344)
+    (at 282.78 157.21 180)
+    (path /56F9BC21)
     (fp_text reference D42 (at 1.27 -2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -982,7 +982,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931B0)
-    (at 27.94 68.58)
+    (at 50 67)
     (path /56DDF52B)
     (fp_text reference K1 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1004,7 +1004,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931BB)
-    (at 26.67 96.52)
+    (at 51 86)
     (path /56DE31D4)
     (fp_text reference K2 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1026,7 +1026,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931C6)
-    (at 26.67 123.19)
+    (at 19.67 125.19)
     (path /56DE3869)
     (fp_text reference K3 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1048,7 +1048,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931D1)
-    (at 27.94 152.4)
+    (at 20.94 154.4)
     (path /56DE38AA)
     (fp_text reference K4 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1070,7 +1070,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931DC)
-    (at 49.53 68.58)
+    (at 70 64)
     (path /56DE28CD)
     (fp_text reference K5 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1092,7 +1092,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931E7)
-    (at 49.53 96.52)
+    (at 71 86)
     (path /56DE31DA)
     (fp_text reference K6 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1114,7 +1114,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931F2)
-    (at 50.8 123.19)
+    (at 43.8 125.19)
     (path /56DE386F)
     (fp_text reference K7 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1136,7 +1136,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F931FD)
-    (at 52.07 151.13)
+    (at 45.07 153.13)
     (path /56DE38B0)
     (fp_text reference K8 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1158,7 +1158,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93208)
-    (at 76.2 68.58)
+    (at 90 59)
     (path /56DE292D)
     (fp_text reference K9 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1180,7 +1180,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93213)
-    (at 77.47 95.25)
+    (at 91 81)
     (path /56DE31E0)
     (fp_text reference K10 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1202,7 +1202,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9321E)
-    (at 77.47 120.65)
+    (at 70.47 122.65)
     (path /56DE3875)
     (fp_text reference K11 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1224,7 +1224,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93229)
-    (at 74.93 148.59)
+    (at 67.93 150.59)
     (path /56DE38B6)
     (fp_text reference K12 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1246,7 +1246,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93234)
-    (at 101.6 67.31)
+    (at 110 65)
     (path /56DE2976)
     (fp_text reference K13 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1268,7 +1268,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9323F)
-    (at 102.87 93.98)
+    (at 111 86)
     (path /56DE31E6)
     (fp_text reference K14 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1290,7 +1290,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9324A)
-    (at 101.6 119.38)
+    (at 94.6 121.38)
     (path /56DE387B)
     (fp_text reference K15 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1312,7 +1312,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93255)
-    (at 100.33 146.05)
+    (at 93.33 148.05)
     (path /56DE38BC)
     (fp_text reference K16 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1334,7 +1334,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93260)
-    (at 127 66.04)
+    (at 130 70)
     (path /56DE29C6)
     (fp_text reference K17 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1356,7 +1356,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9326B)
-    (at 127 93.98)
+    (at 131 91)
     (path /56DE31EC)
     (fp_text reference K18 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1378,7 +1378,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93276)
-    (at 125.73 118.11)
+    (at 118.73 120.11)
     (path /56DE3881)
     (fp_text reference K19 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1400,7 +1400,7 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93281)
-    (at 125.73 146.05)
+    (at 118.73 148.05)
     (path /56DE38C2)
     (fp_text reference K20 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1466,8 +1466,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932A2)
-    (at 180.34 66.04)
-    (path /56DF728A)
+    (at 191.34 67.04)
+    (path /56F9BB37)
     (fp_text reference K23 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1478,9 +1478,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 77 "Net-(K17-Pad4)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 86 "Net-(K23-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 77 "Net-(K17-Pad4)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 29 "Net-(D23-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1488,8 +1488,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932AD)
-    (at 180.34 92.71)
-    (path /56DF72C6)
+    (at 191.34 93.71)
+    (path /56F9BB73)
     (fp_text reference K24 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1500,9 +1500,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 78 "Net-(K18-Pad4)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 87 "Net-(K24-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 78 "Net-(K18-Pad4)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 30 "Net-(D24-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1510,8 +1510,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932B8)
-    (at 182.88 113.03)
-    (path /56DF7302)
+    (at 193.88 114.03)
+    (path /56F9BBAF)
     (fp_text reference K25 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1522,9 +1522,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 79 "Net-(K19-Pad4)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 88 "Net-(K25-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 79 "Net-(K19-Pad4)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 31 "Net-(D25-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1532,8 +1532,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932C3)
-    (at 181.61 139.7)
-    (path /56DF733E)
+    (at 192.61 140.7)
+    (path /56F9BBEB)
     (fp_text reference K26 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1544,9 +1544,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 80 "Net-(K20-Pad4)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 89 "Net-(K26-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 80 "Net-(K20-Pad4)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 32 "Net-(D26-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1554,8 +1554,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932CE)
-    (at 201.93 67.31)
-    (path /56DF7284)
+    (at 212.93 68.31)
+    (path /56F9BB3D)
     (fp_text reference K27 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1566,9 +1566,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 86 "Net-(K23-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 90 "Net-(K27-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 86 "Net-(K23-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 33 "Net-(D27-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1576,8 +1576,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932D9)
-    (at 203.2 90.17)
-    (path /56DF72C0)
+    (at 214.2 91.17)
+    (path /56F9BB79)
     (fp_text reference K28 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1588,9 +1588,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 87 "Net-(K24-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 91 "Net-(K28-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 87 "Net-(K24-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 35 "Net-(D28-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1598,8 +1598,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932E4)
-    (at 201.93 111.76)
-    (path /56DF72FC)
+    (at 212.93 112.76)
+    (path /56F9BBB5)
     (fp_text reference K29 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1610,9 +1610,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 88 "Net-(K25-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 92 "Net-(K29-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 88 "Net-(K25-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 36 "Net-(D29-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1620,8 +1620,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932EF)
-    (at 201.93 139.7)
-    (path /56DF7338)
+    (at 212.93 140.7)
+    (path /56F9BBF1)
     (fp_text reference K30 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1632,9 +1632,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 89 "Net-(K26-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 93 "Net-(K30-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 89 "Net-(K26-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 37 "Net-(D30-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1642,8 +1642,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F932FA)
-    (at 226.06 67.31)
-    (path /56DF727E)
+    (at 237.06 68.31)
+    (path /56F9BB43)
     (fp_text reference K31 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1654,9 +1654,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 90 "Net-(K27-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 94 "Net-(K31-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 90 "Net-(K27-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 38 "Net-(D31-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1664,8 +1664,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93305)
-    (at 227.33 88.9)
-    (path /56DF72BA)
+    (at 238.33 89.9)
+    (path /56F9BB7F)
     (fp_text reference K32 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1676,9 +1676,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 91 "Net-(K28-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 95 "Net-(K32-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 91 "Net-(K28-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 40 "Net-(D32-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1686,8 +1686,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93310)
-    (at 227.33 111.76)
-    (path /56DF72F6)
+    (at 238.33 112.76)
+    (path /56F9BBBB)
     (fp_text reference K33 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1698,9 +1698,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 92 "Net-(K29-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 96 "Net-(K33-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 92 "Net-(K29-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 41 "Net-(D33-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1708,8 +1708,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9331B)
-    (at 226.06 139.7)
-    (path /56DF7332)
+    (at 237.06 140.7)
+    (path /56F9BBF7)
     (fp_text reference K34 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1720,9 +1720,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 93 "Net-(K30-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 97 "Net-(K34-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 93 "Net-(K30-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 42 "Net-(D34-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1730,8 +1730,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93326)
-    (at 250.19 68.58)
-    (path /56DF7278)
+    (at 261 56)
+    (path /56F9BB49)
     (fp_text reference K35 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1742,9 +1742,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 94 "Net-(K31-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 98 "Net-(K35-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 94 "Net-(K31-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 43 "Net-(D35-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1752,8 +1752,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93331)
-    (at 248.92 88.9)
-    (path /56DF72B4)
+    (at 259.92 89.9)
+    (path /56F9BB85)
     (fp_text reference K36 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1764,9 +1764,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 95 "Net-(K32-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 99 "Net-(K36-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 95 "Net-(K32-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 45 "Net-(D36-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1774,8 +1774,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9333C)
-    (at 250.19 111.76)
-    (path /56DF72F0)
+    (at 261.19 112.76)
+    (path /56F9BBC1)
     (fp_text reference K37 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1786,9 +1786,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 96 "Net-(K33-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 100 "Net-(K37-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 96 "Net-(K33-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 46 "Net-(D37-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1796,8 +1796,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93347)
-    (at 250.19 142.24)
-    (path /56DF732C)
+    (at 261.19 143.24)
+    (path /56F9BBFD)
     (fp_text reference K38 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1808,9 +1808,9 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 97 "Net-(K34-Pad1)"))
-    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
       (net 101 "Net-(K38-Pad1)"))
+    (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
+      (net 97 "Net-(K34-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 47 "Net-(D38-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
@@ -1818,8 +1818,8 @@
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93352)
-    (at 271.78 68.58)
-    (path /56DF7272)
+    (at 280 56)
+    (path /56F9BB4F)
     (fp_text reference K39 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1830,18 +1830,18 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 98 "Net-(K35-Pad1)"))
+      (net 122 "Net-(K39-Pad4)"))
     (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 102 "Net-(K39-Pad3)"))
+      (net 98 "Net-(K35-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 48 "Net-(D39-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 103 "Net-(K39-Pad1)"))
+      (net 102 "Net-(K39-Pad1)"))
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F9335D)
-    (at 269.24 87.63)
-    (path /56DF72AE)
+    (at 280.24 88.63)
+    (path /56F9BB8B)
     (fp_text reference K40 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1852,18 +1852,18 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 99 "Net-(K36-Pad1)"))
+      (net 123 "Net-(K40-Pad4)"))
     (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 104 "Net-(K40-Pad3)"))
+      (net 99 "Net-(K36-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 50 "Net-(D40-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 105 "Net-(K40-Pad1)"))
+      (net 103 "Net-(K40-Pad1)"))
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93368)
-    (at 273.05 111.76)
-    (path /56DF72EA)
+    (at 284.05 112.76)
+    (path /56F9BBC7)
     (fp_text reference K41 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1874,18 +1874,18 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 100 "Net-(K37-Pad1)"))
+      (net 124 "Net-(K41-Pad4)"))
     (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 106 "Net-(K41-Pad3)"))
+      (net 100 "Net-(K37-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 51 "Net-(D41-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 107 "Net-(K41-Pad1)"))
+      (net 104 "Net-(K41-Pad1)"))
   )
 
   (module CHERRY_ML:CHERRY_ML (layer F.Cu) (tedit 5650E626) (tstamp 56F93373)
-    (at 273.05 142.24)
-    (path /56DF7326)
+    (at 284.05 143.24)
+    (path /56F9BC03)
     (fp_text reference K42 (at -3.556 3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1896,24 +1896,24 @@
     (pad "" np_thru_hole circle (at -5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.55 1.55) (drill 1.55) (layers *.Cu *.Mask F.SilkS))
     (pad 4 thru_hole circle (at 5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 101 "Net-(K38-Pad1)"))
+      (net 125 "Net-(K42-Pad4)"))
     (pad 3 thru_hole circle (at -5.08 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 108 "Net-(K42-Pad3)"))
+      (net 101 "Net-(K38-Pad1)"))
     (pad 2 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 52 "Net-(D42-Pad1)"))
     (pad 1 thru_hole circle (at 0 -3.81) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS)
-      (net 109 "Net-(K42-Pad1)"))
+      (net 105 "Net-(K42-Pad1)"))
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x07 (layer F.Cu) (tedit 0) (tstamp 56F9337E)
-    (at 137.16 39.37 270)
+    (at 158 104 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /56F91115)
-    (fp_text reference P1 (at 0 -5.1 270) (layer F.SilkS)
+    (fp_text reference P1 (at 0 -5.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X07 (at 0 -3.1 270) (layer F.Fab)
+    (fp_text value CONN_01X07 (at 0 -3.1 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
@@ -1927,20 +1927,20 @@
     (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
     (fp_line (start 0 -1.55) (end -1.55 -1.55) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.55 -1.55) (end -1.55 1.55) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole rect (at 0 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 110 "Net-(P1-Pad1)"))
-    (pad 2 thru_hole oval (at 2.54 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 111 "Net-(P1-Pad2)"))
-    (pad 3 thru_hole oval (at 5.08 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 112 "Net-(P1-Pad3)"))
-    (pad 4 thru_hole oval (at 7.62 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 113 "Net-(P1-Pad4)"))
-    (pad 5 thru_hole oval (at 10.16 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 114 "Net-(P1-Pad5)"))
-    (pad 6 thru_hole oval (at 12.7 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 115 "Net-(P1-Pad6)"))
-    (pad 7 thru_hole oval (at 15.24 0 270) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 116 "Net-(P1-Pad7)"))
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 106 "Net-(P1-Pad1)"))
+    (pad 2 thru_hole oval (at 2.54 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 107 "Net-(P1-Pad2)"))
+    (pad 3 thru_hole oval (at 5.08 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 108 "Net-(P1-Pad3)"))
+    (pad 4 thru_hole oval (at 7.62 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 109 "Net-(P1-Pad4)"))
+    (pad 5 thru_hole oval (at 10.16 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 110 "Net-(P1-Pad5)"))
+    (pad 6 thru_hole oval (at 12.7 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 111 "Net-(P1-Pad6)"))
+    (pad 7 thru_hole oval (at 15.24 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 112 "Net-(P1-Pad7)"))
     (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x07.wrl
       (at (xyz 0.3 0 0))
       (scale (xyz 1 1 1))
@@ -1949,7 +1949,7 @@
   )
 
   (module Teensy:TEENSY_2.0 (layer F.Cu) (tedit 517A872B) (tstamp 56F933AA)
-    (at 152.4 34.29 270)
+    (at 150 80 270)
     (path /56DE575B)
     (fp_text reference U1 (at 0 1.143 270) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
@@ -1967,41 +1967,41 @@
     (fp_line (start -15.24 6.35) (end -12.7 6.35) (layer F.SilkS) (width 0.381))
     (fp_line (start -12.7 6.35) (end -12.7 8.89) (layer F.SilkS) (width 0.381))
     (pad 1 thru_hole rect (at -13.97 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 117 "Net-(U1-Pad1)"))
+      (net 113 "Net-(U1-Pad1)"))
     (pad 2 thru_hole circle (at -11.43 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 49 "Net-(D39-Pad2)"))
+      (net 2 "Net-(D1-Pad2)"))
     (pad 3 thru_hole circle (at -8.89 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 44 "Net-(D35-Pad2)"))
+      (net 7 "Net-(D5-Pad2)"))
     (pad 4 thru_hole circle (at -6.35 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 39 "Net-(D31-Pad2)"))
+      (net 12 "Net-(D10-Pad2)"))
     (pad 5 thru_hole circle (at -3.81 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 34 "Net-(D27-Pad2)"))
+      (net 17 "Net-(D13-Pad2)"))
     (pad 6 thru_hole circle (at -1.27 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 28 "Net-(D22-Pad2)"))
+      (net 22 "Net-(D17-Pad2)"))
     (pad 7 thru_hole circle (at 1.27 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 110 "Net-(P1-Pad1)"))
+      (net 106 "Net-(P1-Pad1)"))
     (pad 8 thru_hole circle (at 3.81 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 111 "Net-(P1-Pad2)"))
+      (net 107 "Net-(P1-Pad2)"))
     (pad 9 thru_hole circle (at 6.35 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 112 "Net-(P1-Pad3)"))
+      (net 108 "Net-(P1-Pad3)"))
     (pad 10 thru_hole circle (at 8.89 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 113 "Net-(P1-Pad4)"))
+      (net 109 "Net-(P1-Pad4)"))
     (pad 11 thru_hole circle (at 11.43 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 114 "Net-(P1-Pad5)"))
+      (net 110 "Net-(P1-Pad5)"))
     (pad 12 thru_hole circle (at 13.97 7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 115 "Net-(P1-Pad6)"))
+      (net 111 "Net-(P1-Pad6)"))
     (pad 13 thru_hole circle (at 13.97 5.08 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 118 "Net-(U1-Pad13)"))
+      (net 114 "Net-(U1-Pad13)"))
     (pad 14 thru_hole circle (at 13.97 2.54 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 119 "Net-(U1-Pad14)"))
+      (net 115 "Net-(U1-Pad14)"))
     (pad 15 thru_hole circle (at 13.97 0 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 120 "Net-(U1-Pad15)"))
+      (net 116 "Net-(U1-Pad15)"))
     (pad 16 thru_hole circle (at 13.97 -2.54 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 121 "Net-(U1-Pad16)"))
+      (net 117 "Net-(U1-Pad16)"))
     (pad 17 thru_hole circle (at 13.97 -5.08 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 122 "Net-(U1-Pad17)"))
+      (net 118 "Net-(U1-Pad17)"))
     (pad 18 thru_hole circle (at 13.97 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 116 "Net-(P1-Pad7)"))
+      (net 112 "Net-(P1-Pad7)"))
     (pad 19 thru_hole circle (at 11.43 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
       (net 81 "Net-(K21-Pad4)"))
     (pad 20 thru_hole circle (at 8.89 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
@@ -2013,21 +2013,21 @@
     (pad 23 thru_hole circle (at 1.27 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
       (net 77 "Net-(K17-Pad4)"))
     (pad 24 thru_hole circle (at -1.27 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 22 "Net-(D17-Pad2)"))
+      (net 28 "Net-(D22-Pad2)"))
     (pad 25 thru_hole circle (at -3.81 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 17 "Net-(D13-Pad2)"))
+      (net 34 "Net-(D27-Pad2)"))
     (pad 26 thru_hole circle (at -6.35 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 12 "Net-(D10-Pad2)"))
+      (net 39 "Net-(D31-Pad2)"))
     (pad 27 thru_hole circle (at -8.89 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 7 "Net-(D5-Pad2)"))
+      (net 44 "Net-(D35-Pad2)"))
     (pad 28 thru_hole circle (at -11.43 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 2 "Net-(D1-Pad2)"))
+      (net 49 "Net-(D39-Pad2)"))
     (pad 29 thru_hole circle (at -13.97 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 123 "Net-(U1-Pad29)"))
+      (net 119 "Net-(U1-Pad29)"))
     (pad 30 thru_hole circle (at -3.81 -5.08 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 124 "Net-(U1-Pad30)"))
+      (net 120 "Net-(U1-Pad30)"))
     (pad 31 thru_hole circle (at -3.81 5.08 180) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 125 "Net-(U1-Pad31)"))
+      (net 121 "Net-(U1-Pad31)"))
   )
 
 )

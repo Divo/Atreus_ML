@@ -1,619 +1,707 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-15 BZR 5517)-product   date = Thursday, March 31, 2016 'AMt' 09:22:50 AM
+Cmp-Mod V01 Created by PcbNew   date = 31/03/2016 22:05:03
 
 BeginCmp
-TimeStamp = /56DE2BE7;
+TimeStamp = 56F933AA
+Path = /56FBFB10
+Reference = U1;
+ValeurCmp = TEENSY2.0-Compact;
+IdModule  = Teensy:TEENSY_2.0-Compact;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F930AF
+Path = /56DE2BE7
 Reference = D1;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE31F2;
+TimeStamp = 56F930B5
+Path = /56DE31F2
 Reference = D2;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE3887;
+TimeStamp = 56F930BB
+Path = /56DE3887
 Reference = D3;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE38C8;
+TimeStamp = 56F930C1
+Path = /56DE38C8
 Reference = D4;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE2CD0;
+TimeStamp = 56F930C7
+Path = /56DE2CD0
 Reference = D5;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE31F8;
+TimeStamp = 56F930CD
+Path = /56DE31F8
 Reference = D6;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE388D;
+TimeStamp = 56F930D3
+Path = /56DE388D
 Reference = D7;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE38CE;
+TimeStamp = 56F930D9
+Path = /56DE38CE
 Reference = D8;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE2D19;
+TimeStamp = 56F930DF
+Path = /56DE2D19
 Reference = D9;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE31FE;
+TimeStamp = 56F930E5
+Path = /56DE31FE
 Reference = D10;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE3893;
+TimeStamp = 56F930EB
+Path = /56DE3893
 Reference = D11;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE38D4;
+TimeStamp = 56F930F1
+Path = /56DE38D4
 Reference = D12;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE2D69;
+TimeStamp = 56F930F7
+Path = /56DE2D69
 Reference = D13;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE3204;
+TimeStamp = 56F930FD
+Path = /56DE3204
 Reference = D14;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE3899;
+TimeStamp = 56F93103
+Path = /56DE3899
 Reference = D15;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE38DA;
+TimeStamp = 56F93109
+Path = /56DE38DA
 Reference = D16;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE2DA8;
+TimeStamp = 56F9310F
+Path = /56DE2DA8
 Reference = D17;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE320A;
+TimeStamp = 56F93115
+Path = /56DE320A
 Reference = D18;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE389F;
+TimeStamp = 56F9311B
+Path = /56DE389F
 Reference = D19;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE38E0;
+TimeStamp = 56F93121
+Path = /56DE38E0
 Reference = D20;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE52BB;
+TimeStamp = 56F93127
+Path = /56DE52BB
 Reference = D21;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DF7368;
+TimeStamp = 56F9312D
+Path = /56DF7368
 Reference = D22;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB55;
+TimeStamp = 56F93133
+Path = /56F9BB55
 Reference = D23;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB91;
+TimeStamp = 56F93139
+Path = /56F9BB91
 Reference = D24;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBCD;
+TimeStamp = 56F9313F
+Path = /56F9BBCD
 Reference = D25;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BC09;
+TimeStamp = 56F93145
+Path = /56F9BC09
 Reference = D26;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB5B;
+TimeStamp = 56F9314B
+Path = /56F9BB5B
 Reference = D27;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB97;
+TimeStamp = 56F93151
+Path = /56F9BB97
 Reference = D28;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBD3;
+TimeStamp = 56F93157
+Path = /56F9BBD3
 Reference = D29;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BC0F;
+TimeStamp = 56F9315D
+Path = /56F9BC0F
 Reference = D30;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB61;
+TimeStamp = 56F93163
+Path = /56F9BB61
 Reference = D31;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB9D;
+TimeStamp = 56F93169
+Path = /56F9BB9D
 Reference = D32;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBD9;
+TimeStamp = 56F9316F
+Path = /56F9BBD9
 Reference = D33;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BC15;
+TimeStamp = 56F93175
+Path = /56F9BC15
 Reference = D34;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB67;
+TimeStamp = 56F9317B
+Path = /56F9BB67
 Reference = D35;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBA3;
+TimeStamp = 56F93181
+Path = /56F9BBA3
 Reference = D36;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBDF;
+TimeStamp = 56F93187
+Path = /56F9BBDF
 Reference = D37;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BC1B;
+TimeStamp = 56F9318D
+Path = /56F9BC1B
 Reference = D38;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BB6D;
+TimeStamp = 56F93193
+Path = /56F9BB6D
 Reference = D39;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBA9;
+TimeStamp = 56F93199
+Path = /56F9BBA9
 Reference = D40;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BBE5;
+TimeStamp = 56F9319F
+Path = /56F9BBE5
 Reference = D41;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F9BC21;
+TimeStamp = 56F931A5
+Path = /56F9BC21
 Reference = D42;
 ValeurCmp = 4148;
 IdModule  = 4148_rev2:4148_rev2;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DDF52B;
+TimeStamp = 56F931B0
+Path = /56DDF52B
 Reference = K1;
 ValeurCmp = CHERRY_ML;
 IdModule  = CHERRY_ML:CHERRY_ML;
 EndCmp
 
 BeginCmp
-TimeStamp = /56DE31D4;
-Reference = K2;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE3869;
-Reference = K3;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE38AA;
-Reference = K4;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE28CD;
-Reference = K5;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE31DA;
-Reference = K6;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE386F;
-Reference = K7;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE38B0;
-Reference = K8;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE292D;
-Reference = K9;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE31E0;
-Reference = K10;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE3875;
-Reference = K11;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE38B6;
-Reference = K12;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE2976;
-Reference = K13;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE31E6;
-Reference = K14;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE387B;
-Reference = K15;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE38BC;
-Reference = K16;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE29C6;
-Reference = K17;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE31EC;
-Reference = K18;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE3881;
-Reference = K19;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE38C2;
-Reference = K20;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DE52B5;
-Reference = K21;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56DF7362;
-Reference = K22;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB37;
-Reference = K23;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB73;
-Reference = K24;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBAF;
-Reference = K25;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBEB;
-Reference = K26;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB3D;
-Reference = K27;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB79;
-Reference = K28;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBB5;
-Reference = K29;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBF1;
-Reference = K30;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB43;
-Reference = K31;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB7F;
-Reference = K32;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBBB;
-Reference = K33;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBF7;
-Reference = K34;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB49;
-Reference = K35;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB85;
-Reference = K36;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBC1;
-Reference = K37;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBFD;
-Reference = K38;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB4F;
-Reference = K39;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BB8B;
-Reference = K40;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BBC7;
-Reference = K41;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56F9BC03;
-Reference = K42;
-ValeurCmp = CHERRY_ML;
-IdModule  = CHERRY_ML:CHERRY_ML;
-EndCmp
-
-BeginCmp
-TimeStamp = /56FCF015;
+TimeStamp = 56FCE284
+Path = /56FCF015
 Reference = P1;
 ValeurCmp = CONN_01X07;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /56FCED09;
+TimeStamp = 56FCE278
+Path = /56FCED09
 Reference = P2;
 ValeurCmp = CONN_01X07;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /56FCF1A7;
+TimeStamp = 56FCE1E4
+Path = /56FCF1A7
 Reference = P3;
 ValeurCmp = CONN_01X07;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
-TimeStamp = /56FBFB10;
-Reference = U1;
-ValeurCmp = TEENSY2.0-Compact;
-IdModule  = Teensy:TEENSY_2.0-Compact;
+TimeStamp = 56F932AD
+Path = /56F9BB73
+Reference = K24;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932D9
+Path = /56F9BB79
+Reference = K28;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93305
+Path = /56F9BB7F
+Reference = K32;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93331
+Path = /56F9BB85
+Reference = K36;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93352
+Path = /56F9BB4F
+Reference = K39;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9335D
+Path = /56F9BB8B
+Reference = K40;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93326
+Path = /56F9BB49
+Reference = K35;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932FA
+Path = /56F9BB43
+Reference = K31;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932CE
+Path = /56F9BB3D
+Reference = K27;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932A2
+Path = /56F9BB37
+Reference = K23;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93368
+Path = /56F9BBC7
+Reference = K41;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9333C
+Path = /56F9BBC1
+Reference = K37;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93310
+Path = /56F9BBBB
+Reference = K33;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932E4
+Path = /56F9BBB5
+Reference = K29;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932B8
+Path = /56F9BBAF
+Reference = K25;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93373
+Path = /56F9BC03
+Reference = K42;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93347
+Path = /56F9BBFD
+Reference = K38;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9331B
+Path = /56F9BBF7
+Reference = K34;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932EF
+Path = /56F9BBF1
+Reference = K30;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F932C3
+Path = /56F9BBEB
+Reference = K26;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93297
+Path = /56DF7362
+Reference = K22;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9328C
+Path = /56DE52B5
+Reference = K21;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93281
+Path = /56DE38C2
+Reference = K20;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93276
+Path = /56DE3881
+Reference = K19;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9326B
+Path = /56DE31EC
+Reference = K18;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93260
+Path = /56DE29C6
+Reference = K17;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93234
+Path = /56DE2976
+Reference = K13;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9323F
+Path = /56DE31E6
+Reference = K14;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9324A
+Path = /56DE387B
+Reference = K15;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93255
+Path = /56DE38BC
+Reference = K16;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93229
+Path = /56DE38B6
+Reference = K12;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F9321E
+Path = /56DE3875
+Reference = K11;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93213
+Path = /56DE31E0
+Reference = K10;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F93208
+Path = /56DE292D
+Reference = K9;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931FD
+Path = /56DE38B0
+Reference = K8;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931F2
+Path = /56DE386F
+Reference = K7;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931E7
+Path = /56DE31DA
+Reference = K6;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931DC
+Path = /56DE28CD
+Reference = K5;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931D1
+Path = /56DE38AA
+Reference = K4;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931C6
+Path = /56DE3869
+Reference = K3;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F931BB
+Path = /56DE31D4
+Reference = K2;
+ValeurCmp = CHERRY_ML;
+IdModule  = Cherry_ML:CHERRY_ML_Etch;
 EndCmp
 
 EndListe

@@ -28,17 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:4148_rev2
-LIBS:cherry_ml
 LIBS:components
 LIBS:Atreus_ML-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 mar 2016"
+Date "6 apr 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -519,16 +517,6 @@ F 3 "" H 9400 8800 60  0000 C CNN
 	1    9400 8800
 	0    -1   1    0   
 $EndComp
-NoConn ~ 1950 7850
-NoConn ~ 2150 7850
-NoConn ~ 1950 5650
-NoConn ~ 2150 5650
-NoConn ~ 1950 3400
-NoConn ~ 2150 3400
-NoConn ~ 1950 1200
-NoConn ~ 2150 1200
-NoConn ~ 7150 7350
-NoConn ~ 7350 7350
 $Comp
 L CHERRY_ML K23
 U 1 1 56F9BB37
@@ -969,14 +957,6 @@ F 3 "" H 12400 7650 60  0000 C CNN
 	1    12400 7650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 15300 1100
-NoConn ~ 15100 1100
-NoConn ~ 15100 3300
-NoConn ~ 15300 3300
-NoConn ~ 15300 7750
-NoConn ~ 15100 7750
-NoConn ~ 15300 5550
-NoConn ~ 15100 5550
 $Comp
 L TEENSY2.0-Compact U1
 U 1 1 56FBFB10
@@ -1001,8 +981,6 @@ F 3 "" H 9400 7250 60  0000 C CNN
 	1    9400 7250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9400 7350
-NoConn ~ 9600 7350
 Wire Wire Line
 	7550 7350 9200 7350
 Connection ~ 8650 3250
@@ -1561,4 +1539,20 @@ Wire Wire Line
 	8350 2200 7800 2200
 Wire Wire Line
 	7800 2200 7800 2650
+Wire Wire Line
+	1950 1200 2150 1200
+Wire Wire Line
+	1950 3400 2150 3400
+Wire Wire Line
+	1950 5650 2150 5650
+Wire Wire Line
+	1950 7850 2150 7850
+Wire Wire Line
+	15300 7750 15100 7750
+Wire Wire Line
+	15300 5550 15100 5550
+Wire Wire Line
+	15300 3300 15100 3300
+Wire Wire Line
+	15300 1100 15100 1100
 $EndSCHEMATC

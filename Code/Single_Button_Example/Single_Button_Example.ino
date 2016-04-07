@@ -1,6 +1,6 @@
 
-const int row = 0;     // the number of the pushbutton pin
-const int col =  2;      // the number of the LED pin
+const int row = 13;     // the number of the pushbutton pin
+const int col =  21;      // the number of the LED pin
 
 
 // variables will change:

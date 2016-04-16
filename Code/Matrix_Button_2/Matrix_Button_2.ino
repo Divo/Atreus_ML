@@ -3,13 +3,19 @@ const int no_rows = 5;
 const int no_cols = 10;
 
 //// ~ should be fn
-char dvorak_layer_1[no_rows][no_cols] = {{'\'', ',', '.', 'p', 'y', 'f', 'g', 'c', 'r', 'l'},
+//char dvorak_layer_1[no_rows][no_cols] = {{'\'', ',', '.', 'p', 'y', 'f', 'g', 'c', 'r', 'l'},
+//                       {'a', 'o', 'e', 'u', 'i', 'd', 'h', 't', 'n', 's'},
+//                       {';', 'q', 'j', 'k', 'x', 'b', 'm', 'w', 'v', 'z'},
+//                       {KEY_ESC, KEY_TAB, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', '~', '-', '"', 13},
+//                       {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}}; 
+
+                       char dvorak_layer_1[no_rows][no_cols] = {{'\'', ',', '.', 'p', 'y', 'f', 'g', 'c', 'r', 'l'},
                        {'a', 'o', 'e', 'u', 'i', 'd', 'h', 't', 'n', 's'},
                        {';', 'q', 'j', 'k', 'x', 'b', 'm', 'w', 'v', 'z'},
                        {KEY_ESC, KEY_TAB, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', '~', '-', '"', 13},
                        {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}}; 
 
-unsigned long debounceDelay = 25;
+unsigned long debounceDelay = 5;
 
 const int cols[no_cols] = {4, 3, 2, 1, 0, 21, 20, 19, 18, 17};
 const int rows[no_rows] = {16, 15, 14, 13, 12};

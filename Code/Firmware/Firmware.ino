@@ -13,25 +13,25 @@ const int LAYER_2 = 0xFD;
 
 const int KEY_FN = 0xFC;
 
-unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
+const unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
                                   {KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_PERIOD, KEY_SLASH},
                                   {KEY_ESC, KEY_TAB, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_1[no_rows][no_cols] = {{ASCII_21, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
+const unsigned int layer_1[no_rows][no_cols] = {{ASCII_21, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, ASCII_24, KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, ASCII_28, ASCII_29, ASCII_26, KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
                                   {LAYER_2, KEY_INSERT, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
+const unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
                                   {KEY_DELETE, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, KEY_PAGE_DOWN, KEY_DOWN_ARROW, KEY_F4, KEY_F5, KEY_F6, KEY_F11},
                                   {0, 0, 0, 0, 0, 0, KEY_F1, KEY_F2, KEY_F3, KEY_F12},
                                   {0, 0, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', LAYER_0, 0, 0, 0},
                                   {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}};
 
-
+unsigned int shift_state, ctrl_state, alt_state, gui_state;
 
 unsigned long debounceDelay = 5;
 
@@ -49,19 +49,20 @@ int buttonState = 0;         // variable for reading the pushbutton status
 void setup() {
   Serial.begin(9600);
   Serial.print("Begin");
-  // Set col as GND, set to output and low
-  //pinMode(col, OUTPUT);
+
+  shift_state = 0;
+  ctrl_state = 0;
+  alt_state = 0;
+  gui_state = 0;
 
   //initKeyStates();
   //initDebounceArray();
-  //initLastKeyStates();
+  //initLastKeyStates(); //These don't work. Don't care for now
 
   for(int i = 0; i < no_cols; i++) {
     pinMode(cols[i], OUTPUT);
   }
 
-  // Set row to pullup
-  //pinMode(row, INPUT_PULLUP);
   for (int i = 0; i < no_rows; i++) {
     pinMode(rows[i], INPUT_PULLUP);
   }
@@ -80,20 +81,46 @@ void loop(){
 
   Serial.println(pressedKey);
 
-  if (pressedKey == KEY_LEFT_SHIFT) {
+  //Holding FN key activates layer 1
+  if (pressedKey == KEY_FN) {
 
-  }else if (pressedKey == KEY_FN) {
+  }else if (pressedKey == KEY_LEFT_SHIFT) {
+
+      if (shift_state == 0) {
+        shift_state = MODIFIERKEY_SHIFT;
+      }else{
+        shift_state = 0;
+      }
 
   }else if (pressedKey == KEY_LEFT_CTRL) {
 
+    if (ctrl_state == 0) {
+      ctrl_state = MODIFIERKEY_CTRL;
+    }else{
+      ctrl_state = 0;
+    }
+
   }else if (pressedKey == KEY_LEFT_ALT) {
 
-  }/*else if (pressedKey >= 0x80 && pressedKey <= 0xCD) {
-    Keyboard.press(pressedKey);
-    Keyboard.release(pressedKey);
-  }*/else{
+    if (alt_state == 0) {
+      alt_state = MODIFIERKEY_ALT;
+    }else{
+      alt_state = 0;
+    }
+
+  }else if (pressedKey == KEY_LEFT_GUI) {
+
+    if (gui_state == 0) {
+      gui_state = MODIFIERKEY_GUI;
+    }else{
+      gui_state = 0;
+    }
+
+  }else{
+    //Keyboard.set_modifier(shift_state | ctrl_state | alt_state);
     Keyboard.set_key1(pressedKey);
     Keyboard.send_now();
+    //Keyboard.set_modifier(0);
     Keyboard.set_key1(0);
     Keyboard.send_now();
   }
@@ -120,16 +147,19 @@ unsigned int scan_matrix() {
         //If the button state has changed.
         if (buttonState != keyStates[i][j]) {
           keyStates[i][j] = buttonState;
-
+          unsigned int key = layer_0[j][i];
           //Key has been pressed
           if (buttonState == LOW) {
              Serial.print(i);
              Serial.print(" ");
              Serial.println(j);
-             return layer_0[j][i];
+             return key;
              //Keyboard.write(layer_0[j][i]);
           } else {
-            //release modifers here?
+            //release modifers here? If it's a special key being released send it like a normal event.
+            if (key == KEY_FN || key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == KEY_LEFT_GUI) {
+              return key;
+            }
           }
         }
       }
@@ -164,15 +194,3 @@ void initDebounceArray() {
      }
    }
 }
-
-//  digitalWrite(col, LOW);
-//  // read the state of the pushbutton value:
-//  buttonState = digitalRead(row);
-//
-//  Serial.println(buttonState, DEC);
-//
-//  if (buttonState == HIGH) {
-//    digitalWrite(11, LOW);
-//  } else {
-//    digitalWrite(11, HIGH);
-//  }

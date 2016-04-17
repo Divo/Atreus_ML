@@ -13,25 +13,28 @@ const int LAYER_2 = 0xFD;
 
 const int KEY_FN = 0xFC;
 
-const unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
+unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
                                   {KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_PERIOD, KEY_SLASH},
                                   {KEY_ESC, KEY_TAB, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-const unsigned int layer_1[no_rows][no_cols] = {{ASCII_21, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
+unsigned int layer_1[no_rows][no_cols] = {{ASCII_21, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, ASCII_24, KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, ASCII_28, ASCII_29, ASCII_26, KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
                                   {LAYER_2, KEY_INSERT, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-const unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
+unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
                                   {KEY_DELETE, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, KEY_PAGE_DOWN, KEY_DOWN_ARROW, KEY_F4, KEY_F5, KEY_F6, KEY_F11},
                                   {0, 0, 0, 0, 0, 0, KEY_F1, KEY_F2, KEY_F3, KEY_F12},
                                   {0, 0, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', LAYER_0, 0, 0, 0},
                                   {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}};
 
-unsigned int shift_state, ctrl_state, alt_state, gui_state;
+
+unsigned int (*activeLayer)[no_cols] = layer_0;
+
+int shift_state, ctrl_state, alt_state, gui_state;
 
 unsigned long debounceDelay = 5;
 
@@ -50,10 +53,12 @@ void setup() {
   Serial.begin(9600);
   Serial.print("Begin");
 
-  shift_state = 0;
-  ctrl_state = 0;
-  alt_state = 0;
-  gui_state = 0;
+
+//This is me half assing a bug where these 4 keys are initaly "pressed" because of lazy code in scan_matrix (the release bit)
+  shift_state = 1;
+  ctrl_state = 1;
+  alt_state = 1;
+  gui_state = 1;
 
   //initKeyStates();
   //initDebounceArray();
@@ -83,6 +88,11 @@ void loop(){
 
   //Holding FN key activates layer 1
   if (pressedKey == KEY_FN) {
+    if (activeLayer == layer_0) {
+      activeLayer = layer_1; 
+    } else {
+      activeLayer = layer_0;
+    }
 
   }else if (pressedKey == KEY_LEFT_SHIFT) {
 
@@ -117,9 +127,10 @@ void loop(){
     }
 
   }else{
-    //Keyboard.set_modifier(shift_state | ctrl_state | alt_state);
+    //Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
     Keyboard.set_key1(pressedKey);
     Keyboard.send_now();
+
     //Keyboard.set_modifier(0);
     Keyboard.set_key1(0);
     Keyboard.send_now();
@@ -147,7 +158,7 @@ unsigned int scan_matrix() {
         //If the button state has changed.
         if (buttonState != keyStates[i][j]) {
           keyStates[i][j] = buttonState;
-          unsigned int key = layer_0[j][i];
+          unsigned int key = activeLayer[j][i];
           //Key has been pressed
           if (buttonState == LOW) {
              Serial.print(i);
@@ -157,7 +168,7 @@ unsigned int scan_matrix() {
              //Keyboard.write(layer_0[j][i]);
           } else {
             //release modifers here? If it's a special key being released send it like a normal event.
-            if (key == KEY_FN || key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == KEY_LEFT_GUI) {
+            if (key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == KEY_LEFT_GUI) {
               return key;
             }
           }

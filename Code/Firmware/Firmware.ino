@@ -16,19 +16,19 @@ const int KEY_FN = 0xFC;
 unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
                                   {KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_PERIOD, KEY_SLASH},
-                                  {KEY_ESC, KEY_TAB, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
+                                  {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_1[no_rows][no_cols] = {{ASCII_21, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
+unsigned int layer_1[no_rows][no_cols] = {{KEY_1, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, ASCII_24, KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, ASCII_28, ASCII_29, ASCII_26, KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
-                                  {LAYER_2, KEY_INSERT, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_ENTER},
+                                  {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
 unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
                                   {KEY_DELETE, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, KEY_PAGE_DOWN, KEY_DOWN_ARROW, KEY_F4, KEY_F5, KEY_F6, KEY_F11},
                                   {0, 0, 0, 0, 0, 0, KEY_F1, KEY_F2, KEY_F3, KEY_F12},
-                                  {0, 0, KEY_LEFT_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', LAYER_0, 0, 0, 0},
+                                  {0, 0, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', LAYER_0, 0, 0, 0},
                                   {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}};
 
 
@@ -118,8 +118,9 @@ void loop(){
       alt_state = 0;
     }
 
-  }else if (pressedKey == KEY_LEFT_GUI) {
-
+  }else if (pressedKey == MODIFIERKEY_GUI) {
+    Serial.print("GUI ");
+    Serial.println(gui_state);
     if (gui_state == 0) {
       gui_state = MODIFIERKEY_GUI;
     }else{
@@ -127,11 +128,11 @@ void loop(){
     }
 
   }else{
-    //Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
+    Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
     Keyboard.set_key1(pressedKey);
     Keyboard.send_now();
 
-    //Keyboard.set_modifier(0);
+    Keyboard.set_modifier(0);
     Keyboard.set_key1(0);
     Keyboard.send_now();
   }
@@ -168,7 +169,7 @@ unsigned int scan_matrix() {
              //Keyboard.write(layer_0[j][i]);
           } else {
             //release modifers here? If it's a special key being released send it like a normal event.
-            if (key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == KEY_LEFT_GUI) {
+            if (key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == MODIFIERKEY_GUI) {
               return key;
             }
           }

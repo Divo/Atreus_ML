@@ -11,7 +11,8 @@ const int LAYER_0 = 0xFF;
 const int LAYER_1 = 0xFE;
 const int LAYER_2 = 0xFD;
 
-const int KEY_FN = 0xFC;
+const unsigned int KEY_FN = 0xFC;
+const unsigned int SFT_MSK = 0x40;
 
 unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
@@ -19,10 +20,10 @@ unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KE
                                   {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_1[no_rows][no_cols] = {{KEY_1, ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
+unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, ASCII_24, KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, ASCII_28, ASCII_29, ASCII_26, KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
-                                  {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_ENTER},
+                                  {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_EQUAL},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
 unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
@@ -84,7 +85,7 @@ void loop(){
     return;
   }
 
-  Serial.println(pressedKey);
+  Serial.println(pressedKey, BIN);
 
   //Holding FN key activates layer 1
   if (pressedKey == KEY_FN) {
@@ -117,7 +118,6 @@ void loop(){
     }else{
       alt_state = 0;
     }
-
   }else if (pressedKey == MODIFIERKEY_GUI) {
     Serial.print("GUI ");
     Serial.println(gui_state);
@@ -125,11 +125,20 @@ void loop(){
       gui_state = MODIFIERKEY_GUI;
     }else{
       gui_state = 0;
-    }
-
+    } 
+     
   }else{
+
     Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
+    
+    if ( (pressedKey & SFT_MSK) ) {
+      Serial.println("Shift mask detected");
+      Keyboard.set_modifier( MODIFIERKEY_SHIFT );
+      pressedKey = pressedKey ^ SFT_MSK;
+    }
+    
     Keyboard.set_key1(pressedKey);
+
     Keyboard.send_now();
 
     Keyboard.set_modifier(0);

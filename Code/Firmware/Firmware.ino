@@ -12,7 +12,7 @@ const int LAYER_1 = 0xFE;
 const int LAYER_2 = 0xFD;
 
 const unsigned int KEY_FN = 0xFC;
-const unsigned int SFT_MSK = 0x40;
+const unsigned int SFT_MSK = 0x80;
 
 unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
@@ -20,7 +20,7 @@ unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KE
                                   {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , ASCII_40, KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
+unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , (KEY_2 | SFT_MSK), KEY_UP_ARROW, ASCII_7B, ASCII_7D, KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, ASCII_2A},
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, ASCII_24, KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, ASCII_28, ASCII_29, ASCII_26, KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
                                   {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_EQUAL},

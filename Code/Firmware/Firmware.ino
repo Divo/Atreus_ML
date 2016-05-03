@@ -20,8 +20,8 @@ unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KE
                                   {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_SPACE, KEY_BACKSPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
-unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , (KEY_2 | SFT_MSK), KEY_UP_ARROW, (KEY_LEFT_BRACE | SFT_MSK) , (KEY_RIGHT_BRACE | SFT_MSK), KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, (KEY_8 | SFT_MSK) },
-                                  {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, (KEY_4 | SFT_MSK), KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
+unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , KEY_UP_ARROW, (KEY_2 | SFT_MSK), (KEY_LEFT_BRACE | SFT_MSK) , (KEY_RIGHT_BRACE | SFT_MSK), KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, (KEY_8 | SFT_MSK) },
+                                  {KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, KEYPAD_ASTERIX, (KEY_4 | SFT_MSK), KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, (KEY_9 | SFT_MSK), (KEY_0 | SFT_MSK), (KEY_7 | SFT_MSK), KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
                                   {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_SPACE, KEY_BACKSPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_EQUAL},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};

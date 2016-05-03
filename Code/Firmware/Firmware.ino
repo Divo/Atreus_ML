@@ -17,7 +17,7 @@ const unsigned int SFT_MSK = 0x80;
 unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KEY_Y, KEY_U, KEY_I, KEY_O, KEY_P},
                                   {KEY_A, KEY_S, KEY_D, KEY_F, KEY_G, KEY_H, KEY_J, KEY_K, KEY_L, KEY_SEMICOLON},
                                   {KEY_Z, KEY_X, KEY_C, KEY_V, KEY_B, KEY_N, KEY_M, KEY_COMMA, KEY_PERIOD, KEY_SLASH},
-                                  {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
+                                  {KEY_ESC, KEY_TAB, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_SPACE, KEY_BACKSPACE, KEY_FN, KEY_MINUS, KEY_SLASH, KEY_ENTER},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
 unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , (KEY_2 | SFT_MSK), KEY_UP_ARROW, (KEY_LEFT_BRACE | SFT_MSK) , (KEY_RIGHT_BRACE | SFT_MSK), KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, (KEY_8 | SFT_MSK) },

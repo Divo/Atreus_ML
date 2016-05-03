@@ -23,13 +23,13 @@ unsigned int layer_0[no_rows][no_cols] = {{KEY_Q, KEY_W, KEY_E, KEY_R, KEY_T, KE
 unsigned int layer_1[no_rows][no_cols] = {{(KEY_1 | SFT_MSK) , (KEY_2 | SFT_MSK), KEY_UP_ARROW, (KEY_LEFT_BRACE | SFT_MSK) , (KEY_RIGHT_BRACE | SFT_MSK), KEY_PAGE_UP, KEY_7, KEY_8, KEY_9, (KEY_8 | SFT_MSK) },
                                   {KEYPAD_ASTERIX, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, (KEY_4 | SFT_MSK), KEY_PAGE_DOWN, KEY_4, KEY_5, KEY_6, KEYPAD_PLUS},
                                   {KEY_LEFT_BRACE, KEY_RIGHT_BRACE, (KEY_9 | SFT_MSK), (KEY_0 | SFT_MSK), (KEY_7 | SFT_MSK), KEY_TILDE, KEY_1, KEY_2, KEY_3, KEY_BACKSLASH},
-                                  {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, KEY_SPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_EQUAL},
+                                  {LAYER_2, KEY_INSERT, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_SPACE, KEY_BACKSPACE, KEY_FN, KEY_PERIOD, KEY_0, KEY_EQUAL},
                                   {0, 0, 0, 0, KEY_LEFT_CTRL, KEY_LEFT_ALT, 0, 0, 0, 0}};
 
 unsigned int layer_2[no_rows][no_cols] = {{KEY_INSERT, KEY_HOME, KEY_UP_ARROW, KEY_END, KEY_PAGE_UP, KEY_UP_ARROW, KEY_F7, KEY_F8, KEY_F9, KEY_F10},
                                   {KEY_DELETE, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW, KEY_PAGE_DOWN, KEY_DOWN_ARROW, KEY_F4, KEY_F5, KEY_F6, KEY_F11},
                                   {0, 0, 0, 0, 0, 0, KEY_F1, KEY_F2, KEY_F3, KEY_F12},
-                                  {0, 0, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_BACKSPACE, ' ', LAYER_0, 0, 0, 0},
+                                  {0, 0, MODIFIERKEY_GUI, KEY_LEFT_SHIFT, KEY_SPACE, KEY_BACKSPACE, LAYER_0, 0, 0, 0},
                                   {' ', ' ', ' ', ' ', KEY_LEFT_CTRL, KEY_LEFT_ALT, ' ', ' ', ' ', ' '}};
 
 

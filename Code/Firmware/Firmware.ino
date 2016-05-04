@@ -126,6 +126,7 @@ void loop(){
 
 int updateModifier(unsigned int modifier, unsigned int * pressedKey, int state) {
   if (*pressedKey == modifier) {
+    *pressedKey = 0;
     if (state == 0) {
       return modifier;
     }else{

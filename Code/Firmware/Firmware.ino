@@ -171,14 +171,14 @@ unsigned int scan_matrix() {
           unsigned int key = activeLayer[j][i];
           //Key has been pressed
           if (buttonState == LOW) {
-             Serial.print(i);
-             Serial.print(" ");
-             Serial.println(j);
+             //eeSerial.print(i);
+             //Serial.print(" ");
+             //Serial.println(j);
              return key;
              //Keyboard.write(layer_0[j][i]);
           } else {
             //release modifers here? If it's a special key being released send it like a normal event.
-            if (key == KEY_LEFT_SHIFT || key == KEY_LEFT_CTRL || key == KEY_LEFT_ALT || key == MODIFIERKEY_GUI) {
+            if (key == MODIFIERKEY_SHIFT || key == MODIFIERKEY_CTRL || key == MODIFIERKEY_ALT || key == MODIFIERKEY_GUI) {
               return key;
             }
           }

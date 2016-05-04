@@ -124,6 +124,18 @@ void loop(){
 }
 
 
+int updateModifier(unsigned int modifier, unsigned int * pressedKey, int state) {
+  if (*pressedKey == modifier) {
+    if (state == 0) {
+      return modifier;
+    }else{
+      return 0;
+    }
+  }
+
+  return state;
+}
+
 
 
 unsigned int scan_matrix() {

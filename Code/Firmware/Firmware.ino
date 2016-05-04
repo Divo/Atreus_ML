@@ -80,12 +80,8 @@ void setup() {
 void loop(){
 
   unsigned int  pressedKey = scan_matrix();
-
-  if (pressedKey == 0) {
-    return;
-  }
-
-  Serial.println(pressedKey, BIN);
+  
+  //Serial.println(pressedKey, BIN);
 
   //Holding FN key activates layer 1
   if (pressedKey == KEY_FN) {
@@ -95,58 +91,39 @@ void loop(){
       activeLayer = layer_0;
     }
 
-  }else if (pressedKey == KEY_LEFT_SHIFT) {
-
-      if (shift_state == 0) {
-        shift_state = MODIFIERKEY_SHIFT;
-      }else{
-        shift_state = 0;
-      }
-
-  }else if (pressedKey == KEY_LEFT_CTRL) {
-
-    if (ctrl_state == 0) {
-      ctrl_state = MODIFIERKEY_CTRL;
-    }else{
-      ctrl_state = 0;
-    }
-
-  }else if (pressedKey == KEY_LEFT_ALT) {
-
-    if (alt_state == 0) {
-      alt_state = MODIFIERKEY_ALT;
-    }else{
-      alt_state = 0;
-    }
-  }else if (pressedKey == MODIFIERKEY_GUI) {
-    Serial.print("GUI ");
-    Serial.println(gui_state);
-    if (gui_state == 0) {
-      gui_state = MODIFIERKEY_GUI;
-    }else{
-      gui_state = 0;
-    } 
-     
-  }else{
-
-    Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
-    
-    if ( (pressedKey & SFT_MSK) ) {
-      Serial.println("Shift mask detected");
-      Keyboard.set_modifier( MODIFIERKEY_SHIFT );
-      pressedKey = pressedKey ^ SFT_MSK;
-    }
-    
-    Keyboard.set_key1(pressedKey);
-
-    Keyboard.send_now();
-
-    Keyboard.set_modifier(0);
-    Keyboard.set_key1(0);
-    Keyboard.send_now();
   }
 
+  shift_state = updateModifier(MODIFIERKEY_SHIFT, &pressedKey, shift_state);
+  
+  ctrl_state  = updateModifier(MODIFIERKEY_CTRL, &pressedKey, ctrl_state);
+
+  alt_state   = updateModifier(MODIFIERKEY_ALT, &pressedKey, alt_state);
+  
+  gui_state   = updateModifier(MODIFIERKEY_GUI, &pressedKey, gui_state);
+
+
+  Keyboard.set_modifier(shift_state | ctrl_state | alt_state | gui_state);
+  
+  if ( (pressedKey & SFT_MSK) ) {
+    Serial.println("Shift mask detected");
+    Keyboard.set_modifier( MODIFIERKEY_SHIFT );
+    pressedKey = pressedKey ^ SFT_MSK;
+  }
+
+  if (pressedKey != 0) {
+    Serial.println(pressedKey);
+    Keyboard.set_key1(pressedKey);
+  }
+  
+  Keyboard.send_now();
+
+  Keyboard.set_modifier(0);
+  Keyboard.set_key1(0);
+  Keyboard.send_now();
+
 }
+
+
 
 
 unsigned int scan_matrix() {
